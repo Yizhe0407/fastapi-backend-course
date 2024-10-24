@@ -4,7 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-fastapi = {extras = ["standard"], version = "*"}
+fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 
